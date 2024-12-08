@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import ArrowIcon from "../Assets/Icons/ArrowIcon";
 import Toggle from "../Assets/Icons/Toggle";
@@ -7,28 +7,27 @@ import CustomButton from "./Button";
 import { div } from "motion/react-client";
 
 const NavBar = () => {
-    const [open, setOpen] = React.useState<boolean>(false);
-    // const pathname = usePathname();
+  const [open, setOpen] = React.useState<boolean>(false);
+  // const pathname = usePathname();
   return (
-    
-    <div className=" flex gap-[50px] py-[70px] max-w-full flex-wrap items-center justify-end ">
-        <div
+    <div className=" flex  py-[70px] max-w-full flex-wrap items-center justify-end text-[#1A1A1A] text-lg font-medium">
+      <div
         className={` items-center justify-evenly  ${
           open
-            ? "flex flex-col absolute top-20 right-1 z-[100] bg-white px-12 py-5 rounded-md"
-            : "bg-transparent hidden lg:flex-row lg:flex lg:justify-between"
+            ? "flex flex-col absolute top-20 right-1 z-[100] bg-white px-12 py-5 rounded-md gap-[50px]"
+            : "bg-transparent hidden lg:flex-row lg:flex lg:justify-between gap-[50px]"
         }`}
       >
-      <Link href={""}>Projects</Link>
-      <Link href={""}>Contact</Link>
-      <CustomButton
-        text="View Resume"
-        icon={<ArrowIcon />}
-        className=" bg-[#CDF482] rounded-xl gap-[10px] py-4 px-5 max-w-[176px] items-center"
-      />
+        <Link href={""}>Projects</Link>
+        <Link href={""}>Contact</Link>
+        <CustomButton
+          text="View Resume"
+          icon={<ArrowIcon />}
+          className=" bg-[#CDF482] rounded-xl gap-[10px] py-4 px-5 max-w-[176px] items-center"
+        />
+      </div>
 
-    </div>
-    <button
+      <button
         onClick={() => {
           setOpen(!open);
         }}

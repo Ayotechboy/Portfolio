@@ -25,7 +25,7 @@ const CustomButton: React.FC<Props> = ({
         boxShadow: "0px 0px 8px rgba(33, 88, 144, 1)",
       }}
       onClick={onClick}
-      className={`flex items-center gap-3 bg-[#001F3F] py-4 font-normal px-6 rounded-[100px] text-white cursor-pointer ${className}`}
+      className={`flex items-center gap-3 py-4 font-medium px-5 text-lg rounded-[12px] text-[#1A1A1A] cursor-pointer ${className}`}
     >
       <Link href={href} className="">
         {text}
