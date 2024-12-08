@@ -11,7 +11,7 @@ const NavBar = () => {
     // const pathname = usePathname();
   return (
     
-    <div className=" flex  gap-[50px] py-[70px] max-w-full flex-wrap items-center justify-end ">
+    <div className=" flex gap-[50px] py-[70px] max-w-full flex-wrap items-center justify-end ">
         <div
         className={` items-center justify-evenly  ${
           open
