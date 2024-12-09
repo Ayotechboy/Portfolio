@@ -8,7 +8,7 @@ const Footer = () => {
         <p>Email : ayobell190@gmail.com</p>
         <p>Linkedin : Ayodeji Ayorinde</p>
       </div>
-      <div className=" border-[1.5px] border-[#C5BDBD] mt-10">
+      <div className=" border-[1.5px] border-[#C5BDBD] my-10">
         
       </div>
     </section>

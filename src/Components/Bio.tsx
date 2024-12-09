@@ -6,7 +6,7 @@ import Curvy from "@/Assets/Icons/Curvy";
 
 const Bio = () => {
   return (
-    <section className=" flex justify-between text-[#2A3E04] max-w-full items-center">
+    <section className=" flex justify-between text-[#2A3E04] max-w-full items-center pr-24">
       <div className=" flex flex-col gap-[44px]">
         <p className=" text-4xl font-semibold">Hi, I’m Ayodeji</p>
         <p className=" text-4xl font-bold">- a Front-End Engineer.</p>
@@ -15,19 +15,20 @@ const Bio = () => {
           applications with seamless user experiences.
         </p>
       </div>
-      <span>
-        <div className=" relative top-16 right-16 -z-10">
+      <span className=" relative w-max">
+        <div className=" absolute bottom-[82%] right-[82%] -z-10">
           <Dots />
         </div>
-        <div>
+        <div className="  after:border-[#CDF482] after:border-[2px] after:rounded-[24px] after:w-full after:p-4 after:absolute after:bottom-[-12%] after:right-[-12%] after:h-full after:-z-10">
           {" "}
           <Image src={starboy} alt="" />{" "}
         </div>
-        <div className=" relative bottom-[20rem] left-[2rem] -z-10">
-          <Curvy/>
-        </div>
-        <div className=" relative bottom-[31rem] left-[19rem] -z-10">
-          <Dots />
+
+        {/* <div className=" absolute bottom-[-12%] right-[-12%] -z-10">
+          <Curvy />
+        </div> */}
+        <div className=" absolute bottom-[10%] right-[-27%] -z-10 ">
+          <Dots fill="#564A9F" />
         </div>
       </span>
     </section>
