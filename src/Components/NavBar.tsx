@@ -10,7 +10,7 @@ const NavBar = () => {
   const [open, setOpen] = React.useState<boolean>(false);
   // const pathname = usePathname();
   return (
-    <div className=" flex  py-[70px] max-w-full flex-wrap items-center justify-end text-[#1A1A1A] text-lg font-medium">
+    <div className=" flex  lg:py-[70px] py-[15px] max-w-full flex-wrap items-center justify-end text-[#1A1A1A] text-lg font-medium">
       <div
         className={` items-center justify-evenly  ${
           open

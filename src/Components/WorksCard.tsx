@@ -12,7 +12,7 @@ const WorksCard = ({
   details: string;
 }) => {
   return (
-    <div className="bg-[#E4E4E4] p-3 md:p-8 rounded-[32px] flex items-center max-w-[582px] justify-center flex-wrap mx-auto ">
+    <div className="bg-[#E4E4E4] p-3 md:p-8 rounded-[32px] flex items-center max-w-[582px] justify-between flex-wrap mx-auto ">
       <Image src={image} alt="" />
       <div className=" bg-[#CDD7B9] flex flex-col rounded-[20px] gap-6 py-7 px-8">
         <span className=" flex  justify-between items-center">

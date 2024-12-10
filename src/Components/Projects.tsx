@@ -4,16 +4,18 @@ import ArrowDown from "../Assets/Icons/ArrowDown";
 import WorksCard from "./WorksCard";
 import CustomButton from "./Button";
 import starboy from "@/Assets/Images/starboy.png";
+import NGPT from "@/Assets/Images/NGPT.png";
+import Langeazy from "@/Assets/Images/Langeazy.png";
 
 const Works = [
   {
-    image: starboy,
-    projectName: "Project Name",
+    image: Langeazy,
+    projectName: "langeasy.ai",
     details:
-      "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
+      " Nigeria's largest and most inclusive multilingual AI model. LangEasy allows users to  record audio samples by translating English sentences into Nigerian languages such as Yoruba, Hausa, Igbo, Pidgin, and Ibibio.",
   },
   {
-    image: starboy,
+    image: NGPT,
     projectName: "Project Name",
     details:
       "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
@@ -50,7 +52,7 @@ const Projects = () => {
     setShowAll((prevState) => !prevState);
   };
 
-  const displayedWorks = showAll ? Works : Works.slice(0, 4);
+  const displayedWorks = showAll ? Works : Works.slice(0, 3);
 
   return (
     <section className=" flex flex-col gap-[72px]">
@@ -60,7 +62,7 @@ const Projects = () => {
         </p>
         <ArrowDown />
       </div>
-      <div className="max-w-full grid items-center gap-8 justify-center md:grid-cols-2">
+      <div className="max-w-[full]items-center gap-8 justify-center grid md:grid-cols-[repeat(auto-fit,minmax(528px,1fr))]">
         {displayedWorks.map((item, index) => (
           <WorksCard
             key={index}

@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 const Homepage = () => {
   return (
-    <div className="flex min-h-screen flex-col px-5 lg:px-24 max-w-full gap-20">
+    <div className="flex min-h-screen flex-col px-5 lg:px-20 sm:px-10 md:px-10 max-w-full gap-20 ">
       <NavBar />
       <Bio />
       <Projects />
