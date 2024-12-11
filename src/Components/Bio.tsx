@@ -7,12 +7,12 @@ import Curvy from "@/Assets/Icons/Curvy";
 
 const Bio = () => {
   return (
-    <section className=" flex justify-between text-[#2A3E04] max-w-full items-center pr-24 ">
+    <section className=" flex justify-between text-[#2A3E04] max-w-full items-center pr-24 text-center lg:text-start ">
       <div className=" flex flex-col gap-[44px]">
         <p className=" text-4xl font-semibold">Hi, I’m Ayodeji</p>
         <p className=" text-4xl font-bold">- a Front-End Engineer.</p>
         <p className=" text-xl font-semibold ">
-          I am a frontend developer who loves creating smooth and easy-to-use
+           Who loves creating smooth and easy-to-use
           user interfaces. <br /> With strong skills in React, I build digital
           experiences that are simple, functional, and creatively unique. <br />{" "}
           I focus on understanding what users need and turning those ideas into
@@ -20,7 +20,7 @@ const Bio = () => {
         </p>
       </div>
       <span className=" relative w-max hidden lg:block ">
-        <div className=" absolute bottom-[82%] right-[82%] -z-10  ">
+        <div className=" absolute bottom-[72%] right-[72%] -z-10  ">
           <Dots />
         </div>
         {/* <div className="">

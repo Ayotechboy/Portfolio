@@ -16,9 +16,9 @@ const Works = [
   },
   {
     image: NGPT,
-    projectName: "Project Name",
+    projectName: "naijaGPT",
     details:
-      "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
+      "An advanced Multilingual Conversational Model which engages in instant conversations that simulate real-life dialogues.",
   },
   {
     image: starboy,
@@ -62,7 +62,7 @@ const Projects = () => {
         </p>
         <ArrowDown />
       </div>
-      <div className="max-w-[full]items-center gap-8 justify-center grid md:grid-cols-[repeat(auto-fit,minmax(528px,1fr))]">
+      <div className="max-w-[full] items-center gap-8 justify-center grid md:grid-cols-[repeat(auto-fit,minmax(528px,1fr))]">
         {displayedWorks.map((item, index) => (
           <WorksCard
             key={index}
