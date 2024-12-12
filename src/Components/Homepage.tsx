@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Projects from "./Projects";
 import Bio from "./Bio";
-import Footer from "./Footer";
+import Contact from "./Contact";
 
 const Homepage = () => {
   return (
@@ -10,7 +10,7 @@ const Homepage = () => {
       <NavBar />
       <Bio />
       <Projects />
-      <Footer />
+      <Contact />
     </div>
   );
 };

@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import ArrowDown from "../Assets/Icons/ArrowDown";
 import WorksCard from "./WorksCard";
 import CustomButton from "./Button";
-import Jamajama from "@/Assets/Images/JamaJama.png";
-import Kindles from "@/Assets/Images/kindles.png";
+import Jamajama2 from "@/Assets/Images/jamajama2.png";
+import Kindles2 from "@/Assets/Images/Kindles (2).png";
 import NGPT from "@/Assets/Images/NGPT.png";
 import Langeazy from "@/Assets/Images/Langeazy.png";
+import euphrates from "@/Assets/Images/euphrates.png";
 import starboy from "@/Assets/Images/starboy.png";
 
 const Works = [
@@ -25,14 +26,14 @@ const Works = [
     onClick: () => window.open("https://naijagpt.ai/", "_blank"),
   },
   {
-    image: Jamajama,
+    image: Jamajama2,
     projectName: "JamaJama",
     details:
       "A website that serves as a bridge,connecting artisans from various disciplines to people in need of their exceptional services.",
     onClick: () => window.open("https://jamajama.com/", "_blank"),
   },
   {
-    image: Kindles,
+    image: Kindles2,
     projectName: "Little Kindles Africa",
     details:
       "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
@@ -40,10 +41,11 @@ const Works = [
       window.open("https://www.littlekindlesafrica.org/", "_blank"),
   },
   {
-    image: starboy,
-    projectName: "Project Name",
+    image: euphrates,
+    projectName: "Euphratestech",
     details:
       "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
+    onClick: () => window.open("https://euphratestech.com/", "_blank"),
   },
   {
     image: starboy,
@@ -62,7 +64,7 @@ const Projects = () => {
   const displayedWorks = showAll ? Works : Works.slice(0, 3);
 
   return (
-    <section className=" flex flex-col gap-[72px]">
+    <section id="projects" className=" flex flex-col gap-[72px]">
       <div className=" flex gap-[56px] items-center">
         <p className=" text-xl font-semibold text-[#2A3E04] ">
           Explore a selection of my projects below

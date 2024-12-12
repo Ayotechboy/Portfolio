@@ -19,11 +19,11 @@ const WorksCard: React.FC<Props> = ({
   onClick,
 }) => {
   return (
-    <div className="bg-[#E4E4E4] p-3 md:p-8 rounded-[32px] flex items-center max-w-[582px] flex-wrap mx-auto justify-center ">
+    <div className="bg-[#E4E4E4] p-3 md:p-8 rounded-[32px] flex items-center max-w-[582px] flex-wrap mx-auto justify-center h-full">
       <Image
         src={image}
         alt={`${projectName}  preview`}
-        className=" h-[20rem] w-[20rem] object-contain"
+        className=" h-[20rem] w-full object-contain"
       />
       <motion.div
         whileHover={{
