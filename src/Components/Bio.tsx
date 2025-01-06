@@ -11,7 +11,7 @@ const Bio = () => {
       <div className=" flex flex-col gap-[44px]">
         <p className=" text-4xl font-semibold">Hi, I’m Ayodeji</p>
         <p className=" text-4xl font-bold">- a Front-End Engineer.</p>
-        <p className=" text-xl font-semibold ">
+        <p className=" text-xl font-semibold">
            Who loves creating smooth and easy-to-use
           user interfaces. <br /> With strong skills in React, I build digital
           experiences that are simple, functional, and creatively unique. <br />{" "}

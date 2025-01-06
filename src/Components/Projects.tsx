@@ -8,7 +8,7 @@ import Kindles2 from "@/Assets/Images/Kindles (2).png";
 import NGPT from "@/Assets/Images/NGPT.png";
 import Langeazy from "@/Assets/Images/Langeazy.png";
 import euphrates from "@/Assets/Images/euphrates.png";
-import starboy from "@/Assets/Images/starboy.png";
+import backoffice from "@/Assets/Images/backoffice.png";
 
 const Works = [
   {
@@ -36,7 +36,7 @@ const Works = [
     image: Kindles2,
     projectName: "Little Kindles Africa",
     details:
-      "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
+      "LKA is dedicated to supporting the basic education of underserved children in Africa. Our mission is to provide every form of support that promotes education in Africa, reaching over 3,000 children across Lagos, Oyo, and Ogun States. ",
     onClick: () =>
       window.open("https://www.littlekindlesafrica.org/", "_blank"),
   },
@@ -44,14 +44,15 @@ const Works = [
     image: euphrates,
     projectName: "Euphratestech",
     details:
-      "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
+      "A project made for a software development company dedicated to creating innovative solutions that transform everyday activities.",
     onClick: () => window.open("https://euphratestech.com/", "_blank"),
   },
   {
-    image: starboy,
-    projectName: "Project Name",
+    image: backoffice,
+    projectName: "BackOffice",
     details:
-      "A project developed for the rebranding of XYZ start-up to increase customer retention by 30%",
+      "A tool used to Annotate and Audit data collected for quality assurance purposes to enhance efficiency in data analysis",
+      onClick: () => window.open("https://backoffice-langeasy-tk7ash3eaa-uc.a.run.app/", "_blank"),
   },
 ];
 const Projects = () => {
@@ -61,7 +62,7 @@ const Projects = () => {
     setShowAll((prevState) => !prevState);
   };
 
-  const displayedWorks = showAll ? Works : Works.slice(0, 3);
+  const displayedWorks = showAll ? Works : Works.slice(0, 2);
 
   return (
     <section id="projects" className=" flex flex-col gap-[72px]">

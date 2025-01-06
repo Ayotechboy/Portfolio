@@ -33,7 +33,7 @@ const WorksCard: React.FC<Props> = ({
         onClick={onClick}
         className={`flex items-center  py-2 font-medium px-2 text-lg rounded-[20px] text-[#1A1A1A] cursor-pointer ${className}`}
       >
-        <div className="bg-[#CDD7B9] flex flex-col rounded-[20px] gap-6 py-7 px-8">
+        <div className="bg-[#CDD7B9] flex flex-col rounded-[20px] gap-6 py-7 px-8 ">
           <span className="flex justify-between items-center">
             <h5 className="text-[#1C1C1C] text-xl font-bold my-4">
               {projectName}
