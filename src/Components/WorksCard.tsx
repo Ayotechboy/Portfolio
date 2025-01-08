@@ -4,7 +4,7 @@ import ForwardArrow from "@/Assets/Icons/ForwardArrow";
 import { motion } from "framer-motion";
 
 type Props = {
-  image: any;
+  image: string;
   projectName: string;
   details: string;
   className?: string;
