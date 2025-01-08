@@ -21,8 +21,11 @@ const NavBar = () => {
   };
 
   const openResume = () => {
-    const resumeUrl = `${window.location.origin}/resume.pdf`;
-    window.open(resumeUrl, "_blank", "noopener,noreferrer");
+    window.open(
+      "https://drive.google.com/file/d/1kwqMxX5HL1K5NFAlb7nX08gDCWurylMw/view",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
