@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import ForwardArrow from "@/Assets/Icons/ForwardArrow";
 import { motion } from "framer-motion";
 
 type Props = {
-  image: string;
+  image: string | StaticImageData;
   projectName: string;
   details: string;
   className?: string;
