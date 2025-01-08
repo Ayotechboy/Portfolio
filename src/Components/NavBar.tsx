@@ -21,7 +21,8 @@ const NavBar = () => {
   };
 
   const openResume = () => {
-    window.open("/resume.pdf", "_blank", "noopener,noreferrer");
+    const resumeUrl = `${window.location.origin}/resume.pdf`;
+    window.open(resumeUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
