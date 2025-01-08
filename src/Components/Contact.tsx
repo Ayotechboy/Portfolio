@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className=" flex flex-col gap-7">
       <p className=" font-semibold text-2xl">Want to collaborate ?</p>
       <div className=" flex gap-6 flex-col lg:flex-row text-xs font-semibold">
-        <Link href={"ayodejibell@gmail.com"}>
+        <Link href="mailto:ayodejibell@gmail.com">
           {" "}
           Email : ayodejibell@gmail.com
         </Link>

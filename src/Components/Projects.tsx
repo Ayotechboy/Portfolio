@@ -12,6 +12,13 @@ import backoffice from "@/Assets/Images/backoffice.png";
 
 const Works = [
   {
+    image: Jamajama2,
+    projectName: "JamaJama",
+    details:
+      "A website that serves as a bridge, connecting artisans from various disciplines to people in need of their exceptional services.",
+    onClick: () => window.open("https://jamajama.com/", "_blank"),
+  },
+  {
     image: Langeazy,
     projectName: "langeasy.ai",
     details:
@@ -24,13 +31,6 @@ const Works = [
     details:
       "An advanced Multilingual Conversational Model which engages in instant conversations that simulate real-life dialogues.",
     onClick: () => window.open("https://naijagpt.ai/", "_blank"),
-  },
-  {
-    image: Jamajama2,
-    projectName: "JamaJama",
-    details:
-      "A website that serves as a bridge,connecting artisans from various disciplines to people in need of their exceptional services.",
-    onClick: () => window.open("https://jamajama.com/", "_blank"),
   },
   {
     image: Kindles2,
